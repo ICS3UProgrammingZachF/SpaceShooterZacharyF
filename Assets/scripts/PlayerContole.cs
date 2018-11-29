@@ -11,10 +11,12 @@ using UnityEngine;
 public class PlayerContole : MonoBehaviour
 {
     private Rigidbody rb;
+    private AudioSource audioSource;
 
     void Start()
     {
          rb = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public float speed;
@@ -33,6 +35,7 @@ public class PlayerContole : MonoBehaviour
         {
             nextFire = Time.time + fireRate;
             Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+            audioSource.Play();
         }
     }
 
