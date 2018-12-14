@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 105
+  controlID: 44
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 104
+  controlID: 9
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -307,18 +307,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/TutorialInfo
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/TutorialInfo
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\s436432\Documents\Zachary Franks\Unity\SpaceShooterZacharyF
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4c270000
-    m_LastClickedID: 10060
+    m_SelectedIDs: 24280000
+    m_LastClickedID: 10276
     m_ExpandedIDs: 000000004c27000056270000a6270000ee2700000a280000202800007028000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -428,7 +428,7 @@ MonoBehaviour:
     y: 92
     width: 613
     height: 926
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 409.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 176
@@ -463,9 +463,9 @@ MonoBehaviour:
     height: 403
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba270000
-    m_LastClickedID: 0
-    m_ExpandedIDs: a6fbffff00000000
+    m_SelectedIDs: c82b0000
+    m_LastClickedID: 11208
+    m_ExpandedIDs: 34f7ffffbcf7ffff0af9ffffa6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -510,10 +510,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 100
-    width: 419
-    height: 917
+    x: 0
+    y: 92
+    width: 837
+    height: 926
   m_SceneLighting: 1
   lastFramingTime: 1228.5489448100664
   m_2DMode: 0
